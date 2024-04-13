@@ -1,0 +1,14 @@
+@import 'header';
+@import 'hero';
+@import 'footer';
+body{
+    box-sizing: content-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#principalContainer{
+    position: relative;
+    overflow: hidden;
+    background: white;
+}

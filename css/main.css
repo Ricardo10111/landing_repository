@@ -1,0 +1,182 @@
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.navContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 5em;
+}
+.navContainer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+  gap: 2em;
+}
+
+.h1Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.h1Container .spmBlack {
+  font-weight: bolder;
+  font-size: 55px;
+}
+.h1Container .spmBlue {
+  font-weight: bolder;
+  font-size: 50px;
+  color: #4F46E5;
+}
+
+.imgLuffy {
+  width: 70px;
+  height: 70px;
+  margin-right: 2em;
+}
+
+.imgHeaderContainer {
+  height: 100%;
+  width: 50%;
+}
+.imgHeaderContainer .img_Luffy {
+  height: 100%;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .headerContainer {
+    flex-direction: column;
+    gap: 2em;
+  }
+  .navContainer {
+    width: 100%;
+    gap: 2em;
+  }
+  .navContainer ul {
+    gap: 1em;
+  }
+  .h1Container .spmBlack {
+    font-size: 40px;
+  }
+  .h1Container .spmBlue {
+    font-size: 35px;
+  }
+  .imgHeaderContainer {
+    width: 100%;
+  }
+  .imgHeaderContainer .img_Luffy {
+    height: 100%;
+    width: 100%;
+  }
+}
+.midleContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.card .card-img {
+  height: 80%;
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footerContainer {
+  background: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 13em;
+}
+
+.h2Container {
+  display: flex;
+  font-size: 20px;
+  font-weight: bolder;
+  margin-right: auto;
+}
+.h2Container p {
+  margin: 2px;
+}
+.h2Container .pBlue {
+  color: #4F46E5;
+}
+
+.socialMediaContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.socialMediaContainer ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  list-style: none;
+  gap: 2em;
+}
+
+.imgSMFacebook {
+  height: 40px;
+  width: 40px;
+}
+
+.imgSMX {
+  height: 70px;
+  width: 70px;
+}
+
+@media screen and (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+    gap: 2em;
+    height: 20em;
+  }
+  .h2Container {
+    font-size: 15px;
+    gap: 1em;
+    margin-right: 0%;
+  }
+  .socialMediaContainer ul {
+    gap: 1em;
+  }
+}
+body {
+  box-sizing: content-box;
+  scroll-behavior: smooth;
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#principalContainer {
+  position: relative;
+  overflow: hidden;
+  background: white;
+}/*# sourceMappingURL=main.css.map */
